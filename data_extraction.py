@@ -4,11 +4,11 @@ import csv
 import time
 
 def extract_data():
-    consumer_key = 'JoRModfVqudVp2dxNl8n1zBpk'
-    consumer_secret = 'xdh9n0QaM3bBj9WDNvmRHlg4wpGu4idDdHyXuWqmg7MJYEgQuV'
+    consumer_key = ''
+    consumer_secret = ''
 
-    access_token = '835535304-vx5q9XymuFcjvSEVtEfbPrySIkkCfdo7o9YvtNYm'
-    access_token_secret = '7wizgIRvtHhfvozGMp3owhrwEzZSLYK0iQaxS3uWkbTeM'
+    access_token = ''
+    access_token_secret = ''
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
